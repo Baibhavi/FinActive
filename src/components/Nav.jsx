@@ -1,3 +1,4 @@
+
 // rrd imports
 import { Form, NavLink } from "react-router-dom"
 
@@ -14,8 +15,8 @@ const Nav = ({ userName }) => {
         to="/"
         aria-label="Go to home"
       >
-        <img src={logomark} alt="" height={55} />
-        <span>FinActive</span>
+        <img src={logomark} alt="" height={30} />
+        <span>HomeBudget</span>
       </NavLink>
       {
         userName && (
